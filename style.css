@@ -5,6 +5,12 @@ html, body{
     height: 100vh;
 }
 
+@media (max-width:740px ) {
+    .television-area{
+        flex-direction: row;
+    }
+}
+
 .television-main-content{
     display: flex;
     flex-direction: row;

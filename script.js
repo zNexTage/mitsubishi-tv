@@ -196,11 +196,7 @@ const createControlKeys = () => {
     });
 }
 
-const onPageLoad = () => {
-    if(detectMob()){       
-        return; 
-    }
-    
+const onPageLoad = () => {    
     createControlKeys();
 }
 
